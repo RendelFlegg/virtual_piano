@@ -7,7 +7,7 @@ function playAudio(key) {
     audio.play();
 }
 
-const pianoKeys = ["a", "s", "d", "f", "g", "h", "j"];
+const pianoKeys = ["a", "s", "d", "f", "g", "h", "j", "w", "e", "t", "y", "u"];
 
 document.addEventListener("keydown", (event) => {
     if (pianoKeys.includes(event.key)){
